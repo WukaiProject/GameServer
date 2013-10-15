@@ -1,0 +1,13 @@
+*.exe
+*.pdb
+*.ilk
+*.user
+*.sdf
+*.suo
+*.pyc
+Debug/
+x64/
+ipch/
+CLib/GameEngine.lib
+CLib/GameEngine_d.lib
+

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GlobalBuf">
+      <UniqueIdentifier>{ca3d06d2-980e-4b9f-b062-f7f63b00da25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUID">
+      <UniqueIdentifier>{be16ec51-a97d-4ed1-9413-07b56068a63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{10619e3a-c826-417e-a68b-65bb84f5ae8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySQL">
+      <UniqueIdentifier>{96e2b306-21e2-432e-9cba-1d476e11fc74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{6aec2bfa-0114-49e2-b91a-6f3671f62bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{24a3ce61-7e0e-4f0a-bc6e-35a7d80de576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define">
+      <UniqueIdentifier>{1e9c6167-2fb1-481d-8f8b-8c0da081e92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Array">
+      <UniqueIdentifier>{40cdbf1d-1257-462e-ace3-e30484d80ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{b98ccbec-2b96-4d7d-9abd-b142bbc09d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{732c3554-f83e-4375-8580-3fbecdc83487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Process">
+      <UniqueIdentifier>{8b7ce15a-9fae-4bb3-b31b-78f7df8d2b58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GEGlobalBuf.h">
+      <Filter>GlobalBuf</Filter>
+    </ClInclude>
+    <ClInclude Include="GEGUID32.h">
+      <Filter>GUID</Filter>
+    </ClInclude>
+    <ClInclude Include="GEGUID64.h">
+      <Filter>GUID</Filter>
+    </ClInclude>
+    <ClInclude Include="GEIO.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GEMySQLStmt.h">
+      <Filter>MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="GEMySQLdb.h">
+      <Filter>MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="GEPython.h">
+      <Filter>Python</Filter>
+    </ClInclude>
+    <ClInclude Include="GESingleton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="GEDefine.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="GEInteger.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="GEIndex.h">
+      <Filter>Array</Filter>
+    </ClInclude>
+    <ClInclude Include="GEArray.h">
+      <Filter>Array</Filter>
+    </ClInclude>
+    <ClInclude Include="GEDateTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="GETick.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="GENetBuf.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="GENetConnect.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="GENetConnectMgr.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="GENetDefine.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="GENetEnv.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="GENetMessage.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="GENetRecvBuf.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="GENetSendBuf.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="GENetWork.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="GEProcess.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GEGUID32.cpp">
+      <Filter>GUID</Filter>
+    </ClCompile>
+    <ClCompile Include="GEGUID64.cpp">
+      <Filter>GUID</Filter>
+    </ClCompile>
+    <ClCompile Include="GEIO.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GEMySQLStmt.cpp">
+      <Filter>MySQL</Filter>
+    </ClCompile>
+    <ClCompile Include="GEMySQLdb.cpp">
+      <Filter>MySQL</Filter>
+    </ClCompile>
+    <ClCompile Include="GEPython.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="GEDefine.cpp">
+      <Filter>Define</Filter>
+    </ClCompile>
+    <ClCompile Include="GEIndex.cpp">
+      <Filter>Array</Filter>
+    </ClCompile>
+    <ClCompile Include="GEDateTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="PyDateTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="GETick.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="GENetBuf.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="GENetConnect.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="GENetConnectMgr.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="GENetMessage.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="GENetRecvBuf.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="GENetSendBuf.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="GENetWork.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="PyProcess.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="GEProcess.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="PyNetEnv.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="PyNetMessage.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
